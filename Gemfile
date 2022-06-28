@@ -42,6 +42,7 @@ group :development, :test do
   gem 'dotenv-rails'
   gem 'rspec-rails'
   gem 'vcr'
+  gem 'pry'
 end
 
 group :development do
