@@ -1,0 +1,14 @@
+<h1>Weather#index</h1>
+
+<h2>Enter a zip code to see a description of that area</h2>
+
+<%= form_with url: "/results", method: :get do |f| %>
+  <%= f.label "Zip Code"%>
+  <%= f.text_field :zip %>
+  <%= f.submit "Submit" %>
+<% end %>
+
+<%= "The Weather is:#{@description}" %>
+
+
+
